@@ -1,6 +1,7 @@
 {
   "baseUrl": "https://tmsa.ar",
   "private": true,
+  "bin": {"tmsa": "cli.js"},
   "scripts": {
     "shorten": "netlify-shortener"
   },
