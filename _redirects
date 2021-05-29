@@ -144,6 +144,8 @@
 /libro/qr123   https://www.youtube.com/watch?v=zmpQpmhigEY
 /libro/qr124   https://www.youtube.com/watch?v=xm1uxvbWGoE
 
+/cmr           https://www.linkedin.com/in/corinamanchado/
+
 # Fallback
 /libro/*  http://argentina.marssociety.org/libro
 /*        http://argentina.marssociety.org/:splat
