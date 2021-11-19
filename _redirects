@@ -157,7 +157,7 @@
 #/libro/intro   #reservado para contratapa
 
 /cmr           https://www.linkedin.com/in/corinamanchado/
-
+/maa           https://www.eventbrite.com.ar/e/1-congreso-argentino-de-movilidad-aerea-avanzada-tickets-179635002127
 # Fallback
 /libro/*  http://argentina.marssociety.org/libro
 /*        http://argentina.marssociety.org/:splat
