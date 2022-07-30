@@ -160,4 +160,5 @@
 /maa           https://www.eventbrite.com.ar/e/1-congreso-argentino-de-movilidad-aerea-avanzada-tickets-179635002127
 # Fallback
 /libro/*  http://argentina.marssociety.org/libro
+/marte         https://argentina.marssociety.org/producto/marte-pasado-presente-y-futuro/
 /*        http://argentina.marssociety.org/:splat
