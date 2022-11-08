@@ -1,7 +1,7 @@
 {
-  "baseUrl": "https://tmsa.ar",
+  "baseUrl": "https://tye.ar",
   "private": true,
-  "bin": {"tmsa": "cli.js"},
+  "bin": {"tye": "cli.js"},
   "scripts": {
     "shorten": "netlify-shortener"
   },
