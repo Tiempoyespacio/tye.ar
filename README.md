@@ -1,8 +1,8 @@
 # Acortador de Links [![Netlify Status](https://api.netlify.com/api/v1/badges/53ac9b8d-46e9-4974-86c7-a7db60c58f01/deploy-status)](https://app.netlify.com/sites/tmsa-short/deploys)
 
-Dentro de Mars Society Argentina tenemos la necesidad de compartir enlaces a nuestras publicaciones, eventos, redes sociales, entre otras cosas, para lo cual contar con links breves y fáciles de recordar, resulta de gran ayuda.
+En Tiempo y Espacio se hace uso de esta herramienta para proveer a nuestros clientes de enlaces cortos y accesibles que permiten llegar con más facilidad a nuestra página, redes, ofertas y otras páginas de utilidad, los vinculos cortos nos permiten cumplir con esta tarea de forma rápida y sencilla que el usuario puede emplear con gran facilidad.
 
-Para esto contamos con el dominio https://tmsa.ar que funciona como acortador de vínculos. Por defecto redirige el tráfico a nuestra [página web][MarsSociety] sin embargo a través de este repositorio es posible agregar nuevos enlaces de acceso rápido, en muy poco tiempo.
+Para esto contamos con el dominio https://tye.ar que funciona como acortador de vínculos. Por defecto redirige el tráfico a nuestra [página web][TiempoYEspacio] sin embargo a través de este repositorio es posible agregar nuevos enlaces de acceso rápido, en muy poco tiempo.
 
 ## Instalación
 
@@ -30,7 +30,7 @@ El primer paso de la instalación será clonar el repositorio.
 Al momento de clonar, se creará una carpeta con el nombre del repositorio, en el directorio actual. El comando a usar es el siguiente:
 
 ```sh
-git clone git@github.com:MarsArgentina/tmsa.ar.git
+git clone git@github.com:Tiempoyespacio/tye.ar.git
 ```
 
 ### 2. Instalar Paquetes
@@ -38,7 +38,7 @@ git clone git@github.com:MarsArgentina/tmsa.ar.git
 Una vez clonado el repositorio ingresamos a la carpeta:
 
 ```sh
-cd tmsa.ar
+cd tye.ar
 ```
 
 Y una vez allí deberemos instalar los paquetes usando NPM:
@@ -51,7 +51,7 @@ Con esto nuestro repositorio se encontrará instalado correctamente.
 
 ### 3. Link
 
-El siguiente comando, crea un ejecutable `tmsa` que estará disponible en cualquier directorio. Este paso es opcional pero recomendado.
+El siguiente comando, crea un ejecutable `tye` que estará disponible en cualquier directorio. Este paso es opcional pero recomendado.
 
 ```sh
 npm link
@@ -64,10 +64,10 @@ npm link
 Si has seguido el [paso 3](#3__link) podrás correr el siguiente comando en cualquier terminal:
 
 ```sh
-tmsa [link] [name]
+tye [link] [name]
 ```
 
-Esto acortará el `link` a `https://tmsa.ar/name`
+Esto acortará el `link` a `https://tye.ar/name`
 
 ### Si NO seguiste el paso 3
 
@@ -77,10 +77,10 @@ Para usar el comando deberás abrir una terminal en la carpeta del proyecto y co
 npm run shorten [link] [name]
 ```
 
-Esto acortará el `link` a `https://tmsa.ar/name`
+Esto acortará el `link` a `https://tye.ar/name`
 
 ## Licencia
 
 Este proyecto es una instancia de [Netlify Shortener](https://github.com/kentcdodds/netlify-shortener) por lo que la licencia de este proyecto es MIT, y el Copyright es de [Kent C. Dodds](https://github.com/kentcdodds)
 
-[MarsSociety]: http://argentina.marssociety.org/
+[TiempoYEspacio]: https://tiempoyespacio.com.ar/
